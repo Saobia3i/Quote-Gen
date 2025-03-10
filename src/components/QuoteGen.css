@@ -1,0 +1,56 @@
+body {
+    background: url("https://source.unsplash.com/1600x900/?nature,water") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .quote-card {
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .quote-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .quote-text {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #333;
+  }
+  
+  .quote-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .quote-button {
+    margin-top: 20px;
+    background: #007bff;
+    border: none;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .quote-button:hover {
+    background: #0056b3 !important;
+  }
+  
